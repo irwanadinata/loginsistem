@@ -11,7 +11,7 @@ type User struct {
 	Password string
 }
 
-// 
+// untuk login admin disini
 func login(c *gin.Context) {
 	var user User
 	if err := c.BindJSON(&user); err != nil {
